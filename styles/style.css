@@ -72,8 +72,7 @@
 }
 
 .content__title {
-  width: 90%;
-  margin: 4px 10px;
+  margin: 4px 8px;
   font-size: 18px;
   line-height: 21.78px;
   font-variation-settings: "wght" var(--weight-title);
@@ -81,7 +80,7 @@
 
 .picture__container {
   position: relative;
-  max-height: 692px;
+  max-height: 696px;
   outline: 2px solid var(--accent-color);
 }
 
@@ -97,6 +96,10 @@
   font-size: 14px;
   line-height: 14px;
   mix-blend-mode: hard-light;
+  text-shadow: 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 
+      0 1px 0 var(--shadow-color), 1px 0 0 var(--shadow-color), 
+      -1px 0 0 var(--shadow-color), 0 -1px 0 var(--shadow-color), 
+      -1px -1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color); 
 }
 
 @supports (text-stroke: 1px var(--shadow-color)) {
@@ -111,7 +114,6 @@
   }
 }
 
-
 .content__image {
   width: 100%;
   object-fit: cover;
@@ -120,8 +122,8 @@
 }
 
 .content__description {
-  margin-inline: 25px;
-  margin-block-start: 25px;
+  margin-inline: 24px;
+  margin-block-start: 29px;
   font-family: var(--font-variable);
   font-size: 18px;
   line-height: 21px;
@@ -308,7 +310,7 @@
   gap: 8px;
   width: 335px;
   height: 55px;
-  margin-block: 50px;
+  margin-block: 45px;
 }
 
 .dialog {
@@ -323,11 +325,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 357px;
+  max-width: 356px;
+  height: 191px;
 }
 
 .dialog__form {
-  margin-block: 30px;
+  margin-block: 15px;
 }
 
 .dialog__title {
@@ -360,7 +363,7 @@
 }
 
 .close__button {
-  padding: 12.5px 132.5px;
+  padding: 12.5px 131.5px;
   text-transform: uppercase;
 }
 
