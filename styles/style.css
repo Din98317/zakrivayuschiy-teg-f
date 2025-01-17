@@ -68,7 +68,6 @@
   border: 2px solid var(--accent-color);
   color: var(--accent-color);
   background-color: var(--background-color);
-
 }
 
 .content__title {
@@ -96,10 +95,10 @@
   font-size: 14px;
   line-height: 14px;
   mix-blend-mode: hard-light;
-  text-shadow: 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 
-      0 1px 0 var(--shadow-color), 1px 0 0 var(--shadow-color), 
-      -1px 0 0 var(--shadow-color), 0 -1px 0 var(--shadow-color), 
-      -1px -1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color); 
+  text-shadow: 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color),
+    0 1px 0 var(--shadow-color), 1px 0 0 var(--shadow-color),
+    -1px 0 0 var(--shadow-color), 0 -1px 0 var(--shadow-color),
+    -1px -1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color);
 }
 
 @supports (text-stroke: 1px var(--shadow-color)) {
