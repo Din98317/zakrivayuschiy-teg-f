@@ -10,30 +10,15 @@
 
 */
 
-/* анимация сердца */
-@keyframes scale {
-  0% {
-    margin-right: 0px;
-  }
-
-  100% {
-    margin-right: 5px;
-  }
-}
 
 /* анимация кнопок */
-@keyframes translate {
-  100% {
-    translate:100%;
-  }
-}
 
 @keyframes heart {
   0% {
-  scale:1;
+  scale:0;
   }
   100% {
-   scale:1.5;
+   scale: 1;
   }
   
 }
