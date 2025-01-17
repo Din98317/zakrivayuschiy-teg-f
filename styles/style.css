@@ -201,8 +201,8 @@
 
 /* фильтры */
 
-.filter__contrast { 
-  filter: contrast(250%);
+.filter__contrast__saturate { 
+  filter: contrast(150%) saturate(90%);
 }
 
 .filter__invert { 
