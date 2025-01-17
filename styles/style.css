@@ -200,6 +200,7 @@
 }
 
 /* фильтры */
+
 .filter__contrast { 
   filter: contrast(250%);
 }
