@@ -201,23 +201,23 @@
 
 /* фильтры */
 
-.filter__contrast__saturate { 
+.filter__contrast__saturate {
   filter: contrast(150%) saturate(90%);
 }
 
-.filter__invert { 
+.filter__invert {
   filter: invert(100%);
 }
 
-.filter__blur { 
+.filter__blur {
   filter: blur(3px);
 }
 
-.filter__grayscale { 
+.filter__grayscale {
   filter: grayscale(80%);
 }
 
-.filter__brightness { 
+.filter__brightness {
   filter: brightness(30%);
 }
 
@@ -225,7 +225,7 @@
   filter: hue-rotate(0.5turn);
 }
 
-.filter__opacity { 
+.filter__opacity {
   filter: opacity(40%);
 }
 /*  */
