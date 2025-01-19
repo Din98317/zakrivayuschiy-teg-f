@@ -154,7 +154,7 @@
 .like__container {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
   align-self: flex-end;
 }
 
